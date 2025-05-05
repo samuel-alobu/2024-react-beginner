@@ -16,17 +16,6 @@ export default function AddTodoForm({ onSubmit }: AddTodoFormProps) {
     setInput("");
   }
 
-  function addTodo(title: string) {
-    setTodos((prevTodos) => [
-      {
-        id: prevTodos.length + 1,
-        title,
-        completed: false,
-      },
-      ...prevTodos,
-    ]);
-  }
-
   return (
     <form className="flex" onSubmit={handleSubmit}>
       <input
