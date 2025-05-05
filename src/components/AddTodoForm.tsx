@@ -33,6 +33,3 @@ export default function AddTodoForm({ onSubmit }: AddTodoFormProps) {
     </form>
   );
 }
-function setTodos(_arg0: (prevTodos: any) => any[]) {
-  throw new Error("Function not implemented.");
-}
